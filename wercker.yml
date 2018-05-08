@@ -7,7 +7,7 @@ box:
 build:
   steps:
     - install-packages:
-  packages: maven
+        packages: maven
     - script:
-      name: maven build
-      code: mvn clean assembly:assembly
+        name: maven build
+        code: mvn clean assembly:assembly
